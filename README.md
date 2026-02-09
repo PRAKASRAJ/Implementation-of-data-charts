@@ -1,11 +1,47 @@
-Project Overview This project focuses on analyzing and visualizing student performance data using different data charts in R. The objective is to understand academic performance patterns through graphical representation.
-Dataset Used Student Performance Dataset
-The dataset includes subject details, Internal Test 1 marks, Internal Test 2 marks, assignment marks, and final grades.
-Tools and Libraries Used R Programming Language RStudio ggplot2 dplyr
-Charts Implemented
-Bar Chart A bar chart is used to represent subject-wise average marks calculated from the total marks obtained by students.
-Line Chart A line chart shows the performance trend across Internal Test 1, Internal Test 2, and assignment marks.
-Pie Chart A pie chart illustrates the distribution of final grades among students.
-Learning Outcomes Understanding of student performance analysis using data visualization Ability to calculate total and average marks Hands-on experience with ggplot2 charts Improved interpretation of academic data
-Conclusion The student performance analysis using data charts helps in identifying subject-wise strengths, performance trends across different evaluations, and grade distribution. Data visualization makes academic performance data easier to understand and analyze.
- 
+Name: PRAKASRAJ C Roll No: 23BAD085
+Visualization of Academic Performance Indicators using R
+Objective
+To analyze and visualize the internal assessment performance of first-year engineering students across multiple subjects using appropriate data visualization techniques in R.
+Software & Tools Used
+R Version: 4.4.1
+R Packages:
+ggplot2
+dplyr
+tidyr
+Dataset Description
+File Name: 1.student_performance.csv
+Description:
+The dataset contains student internal assessment details including:
+Roll Number
+Subject
+Internal Test 1 Marks
+Internal Test 2 Marks
+Assignment Marks
+Final Grade
+Steps Performed
+Load Required Libraries
+The necessary libraries for data manipulation and visualization are loaded using library().
+Import Dataset
+The dataset is imported into R using the read.csv() function.
+Data Preprocessing
+An additional column Average_Marks is calculated by averaging Internal Test 1, Internal Test 2, and Assignment marks.
+Data Visualization
+a) Bar Chart – Subject-wise Average Marks
+Displays the average internal marks for each subject.
+Helps identify subjects with lower overall performance.
+b) Line Chart – Performance Trend Across Tests
+Shows the trend of average student performance across internal tests.
+Useful for understanding improvement or decline in performance.
+c) Pie Chart – Grade Distribution
+Represents the distribution of final grades among students.
+Helps visualize overall academic outcomes.
+Output Generated
+Bar Chart with subject-wise average marks
+Line Chart showing performance trend across tests
+Pie Chart showing grade distribution
+(Screenshots of code and outputs are included separately)
+Conclusion
+The visualization techniques used in this experiment effectively highlight subject difficulty, performance trends, and grade distribution. Such analysis helps academic institutions identify weak areas and improve teaching strategies.
+Notes
+Warning messages related to package build versions do not affect execution.
+Rtools is not required as binary packages are used.
